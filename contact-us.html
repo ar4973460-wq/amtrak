@@ -17,7 +17,7 @@ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/page-style.css">
   <link rel="stylesheet" href="css/cubeportfolio.min.css" />
@@ -56,10 +56,10 @@ hs.src = ('//s10.histats.com/js15_as.js');
 			  </div>
 	
 	          <ul class="nav navbar-nav navbar-right">
-	            <li><a href="index.html"><i class="fa fa-home"></i>  Home </a></li>
-		        <li><a href="about-us.html"><i class="fa fa-user"></i> About Us </a></li>
-		        <li><a href="train-deals.html"><i class="fa fa-train"></i> Train Deals </a></li>
-		        <li><a href="contact-us.html"><i class="fa fa-address-book"></i> Contact Us </a></li>							
+	            <li><a href='/'><i class="fa fa-home"></i>  Home </a></li>
+		        <li><a href='/about-us'><i class="fa fa-user"></i> About Us </a></li>
+		        <li><a href='/train-deals'><i class="fa fa-train"></i> Train Deals </a></li>
+		        <li><a href='/contact-us'><i class="fa fa-address-book"></i> Contact Us </a></li>							
 		      </ul>
        </div>
      </div>
@@ -95,7 +95,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
          <div class="col-md-7">
             <div class="address_cont">
                <h2 class="col-md-12"> Get In Touch With Us ! </h2>
-               <form name="RegForm" action="thankyou.html" method="post" onsubmit="return check_form();">
+               <form method="GET" action="thankyou.html" onsubmit="return first_form()">
                   <div class="form-group col-md-12">
                      <label class="cont_leb"> Your Name: </label>
                      <input type="text" class="form-control cont_form" placeholder="Enter Name" name="name" id="name_contact" required>
@@ -117,7 +117,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
                      <span id="message_contact_err" style="color:red;"> </span>
                   </div>
                   <div class="form-group2 col-md-12">
-                     <button name="submits" type="submit" class="flat_button_cont">send message</button>
+                     <button name="submits" type="sumit" class="flat_button_cont">send message</button>
                   </div>
                </form>
             </div>
@@ -135,7 +135,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
                <h4> About Us </h4>
             </div>
             <div class="foot_links">
-               <p>ExpresRails is one the reckoned train tours & travel planners in Massachusetts, United States & Canada. We have a team of experienced professionals having immense knowledge of train routes & designing travel itineraries. We have a clear approach while designing train itineraries that our fellow passengers should get economical fares & optimum amenities as per their choice, preference & budget.<a href="about-us.html"> Read More </a>  </p>
+               <p>ExpresRails is one the reckoned train tours & travel planners in Massachusetts, United States & Canada. We have a team of experienced professionals having immense knowledge of train routes & designing travel itineraries. We have a clear approach while designing train itineraries that our fellow passengers should get economical fares & optimum amenities as per their choice, preference & budget.<a href='/about-us'> Read More </a>  </p>
             </div>
          </div>
          <div class="col-md-4">
@@ -144,11 +144,11 @@ hs.src = ('//s10.histats.com/js15_as.js');
             </div>
             <div class="foot_links">
                <ul>
-                  <li> <a href="about-us.html"> <i class="fa fa-angle-right"></i> About Us </a> </li>
-                 <li> <a href="disclaimer.html"> <i class="fa fa-angle-right"></i> Disclaimer </a> </li>
-                  <li> <a href="privacy-policy.html"> <i class="fa fa-angle-right"></i> Privacy Policy </a> </li>
-                  <li> <a href="terms-conditions.html"> <i class="fa fa-angle-right"></i> Terms &amp; Conditions  </a> </li>
-                  <li> <a href="cancellation-refund.html"> <i class="fa fa-angle-right"></i> Cancellation-Refund Policy </a> </li>
+                  <li> <a href='/about-us'> <i class="fa fa-angle-right"></i> About Us </a> </li>
+                 <li> <a href='/disclaimer'> <i class="fa fa-angle-right"></i> Disclaimer </a> </li>
+                  <li> <a href='/privacy-policy'> <i class="fa fa-angle-right"></i> Privacy Policy </a> </li>
+                  <li> <a href='/terms-conditions'> <i class="fa fa-angle-right"></i> Terms &amp; Conditions  </a> </li>
+                  <li> <a href='/cancellation-refund'> <i class="fa fa-angle-right"></i> Cancellation-Refund Policy </a> </li>
                   
                   
                </ul>
@@ -227,7 +227,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <a href="tel:+1-833-225-0272"> 
     <div class="bottoms_calls">
         <p><i class="fa fa-phone"></i> +1-833-225-0272 </p>
-    	<p class="rjdn"> Call &amp; Get Unpublished Train Deals </p>
+    	<p class="rjdn"> Call For Support </p>
     </div>
 </a> <!-- FOOTER CODE START -->
 <script src="js/jquery.min.js"></script>
